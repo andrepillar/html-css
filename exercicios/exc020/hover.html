@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p#primeiro {
+            display: block;
+            background-color: red;
+            color: white;
+            width: 250px;
+        }
+
+        div:hover p#segundo {
+            display: block;
+            background-color: blue;
+            color: white;
+            width: 200px;
+        }
+
+        div:hover {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exeplo de hover</h1>
+    <p>Passe o mouse no texto abaixo</p>
+    <div>
+     Passe o mouse aqui
+        <p id="primeiro">Para mais informações acesse nosso outro jogo Free Fire.</p>
+    </div>
+    <hr>
+    <div>Se quiser mais, passe aqui também.
+        <p id="segundo">Olhe nosso site!!</p>
+    </div>
+    <p>Final</p>
+</body>
+</html>

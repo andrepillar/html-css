@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Rubik+Wet+Paint&display=swap');
+
+h1 {
+    color: darkred;
+    font-weight: normal;
+    font-size: xx-large;
+    font-family: Rubik Wet Paint, Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(88, 39, 39);
+    text-align: left;
+}
+
+body {
+    background-color: rgb(214, 230, 255);
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}

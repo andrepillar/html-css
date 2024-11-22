@@ -1,0 +1,31 @@
+body {
+    background-color: #94ff8d;
+}
+
+h1 {
+
+}
+
+h1#principal {
+    text-align: center;
+}
+
+h2 {
+    color: #14660e;
+}
+
+h3 {
+    color: #065f00;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.negrito {
+    text-decoration: bold;
+}
+
+.titulo {
+    color: #23661E
+}
